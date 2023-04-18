@@ -22,3 +22,5 @@ numbersRandom$.subscribe(observator1);
 numbersRandom$.subscribe(observator2);
 
 numbers$.subscribe(numbersRandom$);
+
+numbersRandom$.next(45);
